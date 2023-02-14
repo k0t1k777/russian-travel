@@ -19,14 +19,14 @@
 /* 767 */
 @media screen and (max-width: 767px) {
   .lead__subtitle {
-    font-size: calc(28px + (30 - 28) * (100vw - 540px) / (767 - 540))
+    font-size: calc(28px + (30 - 28) * (100vw - 540px) / (767 - 540));
   }
 }
 
 /* 540 */
 @media screen and (max-width: 540px) {
   .lead__subtitle {
-    font-size: calc(24px + (28 - 24) * (100vw - 424px) / (540 - 424))
+    font-size: calc(24px + (28 - 24) * (100vw - 424px) / (540 - 424));
   }
 }
 
