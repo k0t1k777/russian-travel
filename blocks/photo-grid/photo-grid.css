@@ -1,0 +1,37 @@
+/* 1280 */
+.photo-grid {
+  max-width: 1184px;
+  margin: 0 auto;
+  padding: 0;
+  width: calc(100% - 2*48px);
+}
+
+/* 1024 */
+@media screen and (max-width: 1024px) {
+  .photo-grid {
+    max-width: 928px;
+  }
+}
+
+/* 768 */
+@media screen and (max-width: 768px) {
+  .photo-grid {
+    max-width: 720px;
+    width: calc(100% - 2*24px);
+  }
+}
+
+/* 420 */
+@media screen and (max-width: 480px) {
+  .photo-grid {
+    width: calc(100% - 2*16px);
+    max-width: 288px;
+  }
+}
+
+/* 320 */
+@media screen and (max-width: 320px) {
+  .photo-grid {
+    margin: 0 auto;
+  }
+}

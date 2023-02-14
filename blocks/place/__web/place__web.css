@@ -1,0 +1,20 @@
+.place__web {
+  margin: 0;
+  padding: 0;
+  align-self: end;
+}
+
+/* 700 */
+@media screen and (max-width: 700px) {
+  .place__web {
+    margin-bottom: 32px;
+    align-self: flex-start;
+  }
+}
+
+/* 320 */
+@media screen and (max-width: 320px) {
+  .place__web {
+    padding-left: 16px;
+  }
+}

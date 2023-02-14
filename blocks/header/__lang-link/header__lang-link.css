@@ -1,0 +1,31 @@
+.header__lang-link {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: right;
+  color: #FFFFFF;
+  margin-bottom: 6px;
+  display: inline-block;
+}
+
+/* 600 */
+@media screen and (max-width: 600px) {
+  .header__lang-link {
+    font-size: 20px;
+    line-height: 24px;
+  }
+}
+
+/* 320 */
+@media screen and (max-width: 320px) {
+  .header__lang-link {
+    font-size: 18px;
+    line-height: 20px;
+    margin-bottom: 8px;
+  }
+}
+
+.header__lang-link_active {
+  text-decoration: none;
+  margin-left: 18px;
+}

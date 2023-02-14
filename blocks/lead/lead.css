@@ -1,0 +1,27 @@
+/* 1280 */
+.lead {
+  margin: 0 auto;
+  padding: 0;
+  width: calc(100% - 2*148px);
+}
+
+/* 1024 */
+@media screen and (max-width: 1024px) {
+  .lead {
+    width: calc(100% - 2*48px);
+  }
+}
+
+/* 768 */
+@media screen and (max-width: 768px) {
+  .lead {
+    width: 100%;
+  }
+}
+
+/* 420 */
+@media screen and (max-width: 420px) {
+  .lead {
+    width: 100%;
+  }
+}

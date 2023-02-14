@@ -1,0 +1,50 @@
+.cover__title {
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 76px;
+  text-align: center;
+  margin: 245px auto 32px;
+  max-width: 560px;
+  color: #FFFFFF;
+}
+
+/* 1024 */
+@media screen and (max-width: 1024px) {
+  .cover__title {
+    margin-top: 195px;
+  }
+}
+
+/* 768 */
+@media screen and (max-width: 768px) {
+  .cover__title {
+    margin-top: 115px;
+  }
+}
+
+/* 600 */
+@media screen and (max-width: 600px) {
+  .cover__title {
+    font-size: calc(54px + (72 - 54) * (100vw - 600px) / (760 - 600));
+    line-height: calc(56px + (76 - 56) * (100vw - 600px) / (760 - 600));
+  }
+}
+
+/* 420 */
+@media screen and (max-width: 420px) {
+  .cover__title {
+    max-width: 288px;
+    font-size: calc(42px + (54 - 42) * (100vw - 420px) / (600 - 420));
+    line-height: calc(44px + (56 - 44) * (100vw - 420px) / (600 - 420));
+  }
+}
+
+/* 320 */
+@media screen and (max-width: 320px) {
+  .cover__title {
+    margin-top: 33px;
+    margin-bottom: 16px;
+    font-size: calc(32px + (42 - 32) * (100vw - 320px) / (420 - 320));
+    line-height: calc(35px + (44 - 35) * (100vw - 320px) / (420 - 320));
+  }
+}

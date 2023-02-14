@@ -1,0 +1,26 @@
+.place__text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 29px;
+  margin: 0;
+}
+
+/* 768 */
+@media screen and (max-width: 768px) {
+  .place__text {
+    font-size: 16px;
+    line-height: 26px;
+  }
+}
+
+/* 420 */
+@media screen and (max-width: 420px) {
+  .place__text {
+    margin: 0 16px 0;
+    max-width: calc(100% - 2*16px);
+  }
+}
+
+.place__text:nth-of-type(even) {
+  margin-top: 26px;
+}
