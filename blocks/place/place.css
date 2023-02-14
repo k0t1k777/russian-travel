@@ -1,5 +1,5 @@
 .place {
-  margin: 0 auto;
+  margin: 0 auto 80px;
   padding: 0;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -19,6 +19,7 @@
 @media screen and (max-width: 768px) {
   .place {
     column-gap: 28px;
+    margin-bottom: 73px;
   }
 }
 
@@ -30,4 +31,15 @@
     margin: 0 auto;
     row-gap: 0;
   }
+}
+
+/* 320 */
+@media screen and (max-width: 320px) {
+  .place {
+    margin-bottom: 50px;
+  }
+}
+
+.place:last-child {
+  margin-bottom: 0;
 }
