@@ -5,6 +5,10 @@
   margin: 0;
 }
 
+.place__text:nth-of-type(even) {
+  margin-top: 26px;
+}
+
 /* 768 */
 @media screen and (max-width: 768px) {
   .place__text {
@@ -19,8 +23,4 @@
     margin: 0 16px 0;
     max-width: calc(100% - 2*16px);
   }
-}
-
-.place__text:nth-of-type(even) {
-  margin-top: 26px;
 }
