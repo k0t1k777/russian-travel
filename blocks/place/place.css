@@ -2,10 +2,14 @@
   margin: 0 auto 80px;
   padding: 0;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 1fr 0.99fr;
   grid-template-rows: auto;
   column-gap: 40px;
   row-gap: 48px;
+}
+
+.place:last-child {
+  margin-bottom: 0;
 }
 
 /* 1024 */
@@ -38,8 +42,4 @@
   .place {
     margin-bottom: 50px;
   }
-}
-
-.place:last-child {
-  margin-bottom: 0;
 }

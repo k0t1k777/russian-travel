@@ -5,6 +5,7 @@
   width: calc(100% - 2*48px);
   display: flex;
   flex-direction: column;
+  z-index: 0;
 }
 
 /* 1024 */
