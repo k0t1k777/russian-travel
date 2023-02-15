@@ -5,35 +5,36 @@
   background-size: cover;
   background-position: center;
   position: relative;
-  max-width: 1184px;
-  height: 740px;
+  max-width: 100%;
+  min-height: 740px;
+  background-repeat: no-repeat;
 }
 
 /* 1024 */
 @media screen and (max-width: 1024px) {
   .cover__link {
-    height: 640px;
+    min-height: 640px;
   }
 }
 
 /* 768 */
 @media screen and (max-width: 768px) {
   .cover__link {
-    height: 480px;
+    min-height: 480px;
   }
 }
 
 /* 420 */
 @media screen and (max-width: 420px) {
   .cover__link {
-    height: 400px;
+    min-height: 400px;
   }
 }
 
 /* 320 */
 @media screen and (max-width: 320px) {
   .cover__link {
-    height: 200px;
+    min-height: 200px;
     width: 320px;
   }
 }
@@ -45,14 +46,14 @@
   left: 0;
   right: 0;
   bottom: 0;
-  min-height: 100%;
-  width: 100%;
-  background-color: rgba(0, 0, 0, 1);
+  /* min-height: 100%;
+  width: 100%; */
+  background-color: #2A2C2F;
   opacity: 0.3;
   z-index: -1;
   transition: opacity 200ms ease-in-out;
-  overflow: hidden;
-  object-fit: cover;
+  /* overflow: hidden; */
+  /* object-fit: cover; */
 }
 
 .cover__link:hover:before {

@@ -6,6 +6,7 @@
   color: #FFFFFF;
   margin-bottom: 6px;
   display: inline-block;
+  margin-right: 18px;
 }
 
 /* 600 */
@@ -25,7 +26,6 @@
   }
 }
 
-.header__lang-link_active {
-  text-decoration: none;
-  margin-left: 18px;
+.header__lang-link:last-child {
+    margin-right: 0;
 }
