@@ -19,8 +19,8 @@
 @import url(../blocks/photo-grid/photo-grid.css);
 @import url(../blocks/photo-grid/__list/photo-grid__list.css);
 @import url(../blocks/photo-grid/__image/photo-grid__image.css);
+@import url(../blocks/places/places.css);
 @import url(../blocks/place/place.css);
-@import url(../blocks/place/__interesting/place__interesting.css);
 @import url(../blocks/place/__link/place__link.css);
 @import url(../blocks/place/__picture/place__picture.css);
 @import url(../blocks/place/__text/place__text.css);

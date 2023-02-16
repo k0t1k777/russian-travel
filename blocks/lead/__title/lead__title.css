@@ -35,7 +35,7 @@
 /* 420 */
 @media screen and (max-width: 420px) {
   .lead__title {
-    font-size: calc(44px + (50 - 44) * (100vw - 4240px) / (540 - 420));
+    font-size: calc(44px + (50 - 44) * (100vw - 420px) / (540 - 420));
     line-height: calc(48px + (62 - 48) * (100vw - 420px) / (540 - 420));
   }
 }
